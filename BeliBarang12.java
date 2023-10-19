@@ -15,17 +15,17 @@ public class BeliBarang12 {
 
         while (true) {
             System.out.println("\nKetik 'done' jika tidak ada barang yang ingin dibeli lagi");
-            System.out.print("Masukkan jenis barang (minuman/makanan): ");
+            System.out.print("Masukkan jenis barang (minuman/makanan)   : ");
             jenisBarang = input12.next();
 
             if (jenisBarang.equalsIgnoreCase("done")) {
                 break;
             }
 
-            System.out.print("\nMasukkan nama barang: ");
+            System.out.print("Masukkan nama barang                      : ");
             namaBarang = input12.next();
 
-            System.out.print("\nMasukkan harga barang: ");
+            System.out.print("Masukkan harga barang                     : ");
             hargaBarang = input12.nextDouble();
 
             if (jenisBarang.equalsIgnoreCase("minuman")) {
